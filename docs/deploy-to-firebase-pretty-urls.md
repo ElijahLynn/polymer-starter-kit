@@ -5,9 +5,9 @@ Firebase is a very simple and secure way to deploy a Polymer Starter Kit site. Y
 The instructions below are based on the [Firebase hosting quick start
 guide](https://www.firebase.com/docs/hosting/quickstart.html).
 
-1.  [Sign up for a Firebase account](https://www.firebase.com/signup/).
+1.  [Sign up for a Firebase account](https://www.firebase.com/signup/)
 
-1.  Install the Firebase command line tools.
+1.  Install the Firebase command line tools
 
         npm install -g firebase-tools
 
@@ -15,9 +15,9 @@ guide](https://www.firebase.com/docs/hosting/quickstart.html).
     can use the `firebase` command from any directory. You may need
     to install the package with `sudo` privileges.
 
-1.  `cd` into your project directory.
+1.  `cd` into your project directory
 
-1.  Inititalize the Firebase application.
+1.  Inititalize the Firebase application
 
         firebase init
 
@@ -56,7 +56,11 @@ guide](https://www.firebase.com/docs/hosting/quickstart.html).
           hashbang: false
         });
 
-1.  Deploy.
+1.  Build
+
+        gulp
+
+1.  Deploy
 
         firebase deploy
 
